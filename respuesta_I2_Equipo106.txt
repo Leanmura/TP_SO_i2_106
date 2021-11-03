@@ -6,3 +6,7 @@ Diaz Barbacovi Francisco - GAMMA
 Respuestas:
 a- Utilizando los comandos git remote add, git fetch y git rebase
 b- No, no es posible
+c- No, no es posible
+d- Solo cambiaran los datos si el dueño del repositorio hace un cambio,
+   de lo contrario, no se perderán. También, siempre quedará constancia
+   de las versiones anteriores.
