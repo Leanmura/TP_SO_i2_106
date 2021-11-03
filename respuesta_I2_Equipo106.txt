@@ -4,3 +4,5 @@ Friadenrich Agustin - BETA
 Diaz Barbacovi Francisco - GAMMA
 
 Respuestas:
+a- Utilizando los comandos git remote add, git fetch y git rebase
+b- No, no es posible
