@@ -1,0 +1,35 @@
+Integrantes:
+Murakoshi Leandro - ALPHA
+Friadenrich Agustin - BETA
+Diaz Barbacovi Francisco - GAMMA
+
+Respuestas:
+a- Utilizando los comandos git remote add, git fetch y git rebase
+b- No, no es posible
+c- No, no es posible
+d- Solo cambiaran los datos si el dueño del repositorio hace un cambio,
+   de lo contrario, no se perderán. También, siempre quedará constancia
+   de las versiones anteriores.
+e-  
+// primero forkeo el repo de Beta 
+git clone https://github.com/Leanmura/TP_SO_i2_106.git
+echo "Leandro Murakoshi" >> TP_SO_i2_106/fork.txt 
+hostname -I >> TP_SO_i2_106/fork.txt 
+date +%T >> TP_SO_i2_106/fork.txt 
+git push 
+
+git remote -v
+git remote add upstream https://github.com/AgustinFrich/TP_SO_i2_106.git
+git fetch upstream
+git merge upstream/main
+git push 
+
+git fetch upstream
+git merge upstream/main
+// modifico el archivo de respuestas
+git branch respuestaE
+git branch
+git checkout respuestaE
+
+
+
