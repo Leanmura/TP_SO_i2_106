@@ -7,8 +7,8 @@ Respuestas:
 a- Utilizando los comandos git remote add, git fetch y git rebase
 b- No, no es posible
 c- No, no es posible
-d- Solo cambiaran los datos si el dueÒo del repositorio hace un cambio,
-   de lo contrario, no se perder·n. TambiÈn, siempre quedar· constancia
+d- Solo cambiaran los datos si el due√±o del repositorio hace un cambio,
+   de lo contrario, no se perder√°n. Tambi√©n, siempre quedar√° constancia
    de las versiones anteriores.
 e-  
 // primero forkeo el repo de Beta 
@@ -30,6 +30,4 @@ git merge upstream/main
 git branch respuestaE
 git branch
 git checkout respuestaE
-
-
 
